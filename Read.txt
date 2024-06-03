@@ -1,0 +1,32 @@
+titanic_project/
+│
+├── data/                   # Directory to store data files
+│   └── titanic.csv
+│
+├── notebooks/              # Jupyter notebooks for EDA and visualization (optional)
+│   └── eda.ipynb
+│
+├── src/                    # Source directory for Python scripts
+│   ├── data/               # Subfolder for data-related scripts
+│   │   ├── __init__.py
+│   │   ├── data_cleaning.py
+│   │   └── data_loading.py
+│   │
+│   ├── features/           # Subfolder for feature engineering scripts
+│   │   ├── __init__.py
+│   │   └── feature_engineering.py
+│   │
+│   ├── visualization/      # Subfolder for visualization scripts
+│   │   ├── __init__.py
+│   │   └── visualization.py
+│   │
+│   ├── models/             # Subfolder for model scripts
+│   │   ├── __init__.py
+│   │   └── model.py
+│   │
+│   └── utils/              # Subfolder for utility scripts
+│       ├── __init__.py
+│       └── utils.py
+│
+├── main.py                 # Main script to run the project
+└── requirements.txt        # List of dependencies
